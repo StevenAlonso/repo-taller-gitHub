@@ -24,6 +24,12 @@ int multiploTres(int i){
     else return 0;
 }
 
+int multiploCinco(int i){
+    if(i%5==0)
+        return 1;
+    else return 0;
+}
+
 int main(int argc, char** argv) {
 
     for (int i = 0; i < 100; i++) {
