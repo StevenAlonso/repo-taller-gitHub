@@ -30,6 +30,10 @@ int multiploCinco(int i){
     else return 0;
 }
 
+int esOtroMultiplo(int i){
+    
+}
+
 int main(int argc, char** argv) {
 
     for (int i = 0; i < 100; i++) {
@@ -37,7 +41,7 @@ int main(int argc, char** argv) {
             cout << "Fizz";
         else if (multiploCinco(i))
             cout << "Buzz";
-        else
+        else (esOtroMultiplo(i))
             cout << "FizzBuzz";
     }
     return 0;
