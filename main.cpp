@@ -18,6 +18,12 @@ using namespace std;
 /*
  * 
  */
+int multiploTres(int i){
+    if(i%3==0)
+        return 1;
+    else return 0;
+}
+
 int main(int argc, char** argv) {
 
     for (int i = 0; i < 100; i++) {
@@ -30,4 +36,5 @@ int main(int argc, char** argv) {
     }
     return 0;
 }
+
 
